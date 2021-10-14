@@ -1,0 +1,10 @@
+.cover__container{
+  margin: 0 auto ;
+  position: relative;
+  padding-top: 245px;
+  z-index: 3;
+}
+
+.cover__container:hover+.cover__overlay{
+  opacity: 0.8;
+}

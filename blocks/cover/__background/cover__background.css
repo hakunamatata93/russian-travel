@@ -1,0 +1,28 @@
+.cover__background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-image: url(../../../images/background.jpg);
+  background-size: contain;
+  width: min(1184px, 100%);
+  min-height: min(740px, calc(100vw*5/8));
+  z-index: 1;
+  text-decoration: none;
+  background-repeat: no-repeat;
+}
+
+.cover__background::before{
+  background-color: rgba(42, 44, 47, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.cover__background:hover:before{
+  background-color: rgba(42, 44, 47, 0.8);
+}
