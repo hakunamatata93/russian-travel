@@ -5,10 +5,8 @@
   grid-template-columns: repeat(4, 1fr);
   max-width: 1184px;
   margin:0 auto;
-  padding: 0;
-  padding-top: 92px;
+  padding: 92px 48px 0;
   justify-items: center;
-  padding: 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,14 +19,14 @@
   .photo-grid{
     grid-template-columns: repeat(2, 1fr);
     max-width: 720px;
-    padding: 0 24px;
+    padding: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid{
     grid-template-columns: repeat(1, 1fr);
-    padding: 0 16px;
+    padding: 64px 16px 0;
     gap: 12px;
   }
 }
