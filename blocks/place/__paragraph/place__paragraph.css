@@ -8,9 +8,6 @@
   margin-bottom: 27px;
 }
 
-.place__paragraph:last-child{
-  margin-bottom: 0;
-}
 
 @media screen and (max-width: 1000px) {
   .place__paragraph{

@@ -1,0 +1,15 @@
+.place__list-item{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 27px;
+}
+
+.place__list-item:last-child{
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .place__list-item{
+    margin-bottom: 25px;
+  }
+}
